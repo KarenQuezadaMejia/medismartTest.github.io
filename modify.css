@@ -1,0 +1,128 @@
+body{
+    background-color: #031B34;
+}
+#land {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #031B34;
+    ;
+}
+a{
+color: white !important;
+}
+input{
+    height: 60px;
+    background-color: #052D56 !important;
+    color: #3D6184;
+    font-size: 20px;
+    border-color: #052D56 !important;
+}
+#cardBanner{
+    max-width: 100% !important;
+    background-color: #031B34;
+    border-color: #031B34;
+}
+
+h1, h2, .secondGradient{
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.card-text{
+    color:#81AFDD !important;
+    font-size: 20px;
+}
+#smallText{
+    color: white !important;
+}
+#companies{
+    width: 650px;
+    height: 20px;
+}
+#secondTitle{
+    color: white;
+    text-decoration-line: overline;
+    text-emphasis-position: over left;
+    text-emphasis-color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+}
+.textContent{
+    font-size: 16px;
+    color: #81AFDD;
+}
+#secondBox{ 
+    margin-top: 32px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.title-container{
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+}
+.text-container{
+    font-size: 16px;
+    color: #81AFDD;
+}
+.title-container-t{
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+.text-container-t {
+    font-size: 14px;
+    color: #81AFDD;
+}
+button{
+    color: #fff;
+}
+.button:hover {background-color: #FF4820}
+#imgFeautre{
+    height: 450px;
+    width: 546px;
+}
+#lightText{
+    color:#71E5FF;
+    font-size: 16px;
+}
+#mediumText{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+    font-size: 34px;
+}
+#lastText{
+    font-size: 16px;
+    color:#81AFDD;
+}
+#lastTexto{
+color: #FF8A71;
+font-size: 16px;
+}
+#squareGet{
+    padding-left: 20px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10.7236px;
+}
+.textrq{
+    padding-top: 12px;
+    font-size: 12px;
+    color: #0E0E0E;
+}
+.textBlackrq{
+    font-size: 24px;
+    color: black;
+}
+#butGet{
+    margin-top: 12px;
+    width: 189.14px;
+height: 59.4px;
+background: #000000;
+border-radius: 40px;
+}
+

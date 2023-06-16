@@ -1,0 +1,29 @@
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/variables-dark";
+
+$theme-colors: map-remove($theme-colors, "info", "light", "dark", "primary");
+
+@import "./node_modules/bootstrap/scss/maps";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/root";
+
+// Create your own map
+$primary: #031B34;
+$body-bg: #040C18;
+
+
+$theme-colors: (
+  "primary": $primary,
+);
+
+// Create your own map
+$custom-colors: (
+  "custom-color": #FF4820,
+);
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "./node_modules/bootstrap/scss/bootstrap";
